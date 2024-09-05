@@ -36,9 +36,9 @@ export default function Home() {
   const progress = useTransform(scrollXProgress, [0, 1], ["0%", "100%"]);
 
   return (
-    <main className="flex flex-col items-center min-h-screen px-20">
+    <main className="flex flex-col items-center min-h-screen px-20 py-10 justify-center">
       <div className="w-full">
-        <h1 className="font-bold tracking-wide text-[12rem] uppercase text-neutral-200">
+        <h1 className="font-bold tracking-normal text-[22vw] uppercase text-neutral-200 leading-none">
           Images
         </h1>
       </div>
