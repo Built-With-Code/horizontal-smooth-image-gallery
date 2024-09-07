@@ -44,12 +44,12 @@ export default function Home() {
       </div>
       <div
         ref={scrollWrapper}
-        className="relative left-0 right-0 w-screen overflow-x-auto hide-scrollbar"
+        className="relative w-screen overflow-x-auto hide-scrollbar"
       >
         <div ref={scrollContent} className="flex px-20">
           {images.map((p) => (
             <div
-              className="flex-shrink-0 w-3/4 max-h-[50vh] aspect-landscape"
+              className="flex-shrink-0 w-3/4 max-h-[50vh] aspect-video"
               key={`project-${p.id}`}
             >
               <img
